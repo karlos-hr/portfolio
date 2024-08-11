@@ -5,7 +5,11 @@
 @import '@fontsource-variable/onest';
 
 
+:root{
+    color-scheme: light dark;
+}
 body{
     font-family: 'Onest Variable', sans-serif;
     font-weight: 400;
 }
+

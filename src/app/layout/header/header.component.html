@@ -1,14 +1,30 @@
-<header class="w-100 bg-cyan-100 h-16 flex justify-around items-center">
-HEADER
+<header class="w-100  h-16 flex justify-around items-center sticky top-0 z-10 backdrop-blur-md" style="font-size: smaller; border-bottom: 1px solid #f8fafc0f">
+<nav class="flex flex-wrap gap-4 justify-center">
+  <section class="flex flex-wrap gap-4">
+    <a class="hover:cursor-pointer hover:text-yellow-500" href="#about-me">
+      About me
+    </a>
+    <a class="hover:cursor-pointer hover:text-yellow-500" href="#experience">
+      Experience
+    </a>
+    <a class="hover:cursor-pointer hover:text-yellow-500" href="#projects">
+      Projects
+    </a>
+    <a class="hover:cursor-pointer hover:text-yellow-500" href="#skills">
+      Skills
+    </a>
+  </section>
 
-
-<section class="flex flex-wrap gap-4">
-  <a [href]="githubLink" target="_blank">
-    <img src="/assets/github.icon.svg" width="20" height="20" class="hover:opacity-65 hover:cursor-pointer">
-  </a>
-  <a [href]="linkedinLink" target="_blank">
-    <img src="/assets/linkedin.icon.svg" width="20" height="20" class="hover:opacity-65 hover:cursor-pointer">
-  </a>
-</section>
-
+  <section class="flex flex-wrap gap-4 pl-5" style="border-left: 2px solid #f8fafc0f">
+    <button>
+      <img style="filter: invert(1);"  src="/assets/email.icon.svg" width="20" height="20" class="hover:opacity-65 hover:cursor-pointer">
+    </button>
+    <a [href]="githubLink" target="_blank">
+      <img style="filter: invert(1);"  src="/assets/github.icon.svg" width="20" height="20" class="hover:opacity-65 hover:cursor-pointer">
+    </a>
+    <a [href]="linkedinLink" target="_blank">
+      <img style="filter: invert(1);" src="/assets/linkedin.icon.svg" width="20" height="20" class="hover:opacity-65 hover:cursor-pointer">
+    </a>
+  </section>
+</nav>
 </header>
