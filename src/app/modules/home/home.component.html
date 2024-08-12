@@ -24,7 +24,7 @@
 
 <section class="section scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl">
 
-  <h2 class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white">
+  <h2 class="w-full flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white justify-center">
     <img src="/assets/briefcase.icon.svg" width="28" height="28" style="filter: invert(1);">
     Work Experience
   </h2>
@@ -39,13 +39,13 @@
 </section>
 
 
-<section class="section scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl mt-36">
+<section class="flex flex-col w-full mx-auto justify-center items-center mt-36">
 
   <h2 class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white">
     <img src="/assets/boxarchive.icon.svg" width="28" height="28" style="filter: invert(1);">
     Projects
   </h2>
-  <ol class="relative mt-16">
+  <ol class="relative mt-16 flex flex-wrap gap-5 w-full justify-center">
     @for(project of projects ; track project){
       <li class="max-w-md">
         <app-project-component [project]="project"></app-project-component>
