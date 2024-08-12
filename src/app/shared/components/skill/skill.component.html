@@ -4,7 +4,9 @@
 
 <article class="w-full rounded-lg border shadow-md border-neutral-700 p-4 h-full">
 
-  <h2 class="text-xl text-center mb-3 ">{{skill.title.name}}</h2>
+  <div class="w-full text-center">
+    <h2 class="text-2xl text-center mb-3 bg-gradient-to-r {{skill.title.color.from}} {{skill.title.color.via}} {{skill.title.color.to}} inline-block text-transparent bg-clip-text">{{skill.title.name}}</h2>
+  </div>
   <section class="w-full grid grid-cols-4 gap-4">
     @for(tech of skill.technologies ; track tech){
       @if(tech.link){

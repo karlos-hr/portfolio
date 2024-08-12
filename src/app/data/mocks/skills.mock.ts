@@ -4,7 +4,11 @@ export const skills : ISkill[] = [
     {
         title : {
             name: 'Frontend',
-            color: 'red'
+            color: {
+                from : "from-blue-700",
+                via:  "via-blue-200",
+                to: "to-blue-500"
+            }
         },
         technologies : [
             {
@@ -54,39 +58,50 @@ export const skills : ISkill[] = [
             },
             {
                 icon: "skills/icons8-xml-48.png",
-                name: "XML"
+                name: "XML",
+                link: "https://www.w3schools.com/xml/default.asp"
             },
             {
                 icon: "skills/icons8-placeholder-thumbnail-json-48.png",
-                name: "JSON"
+                name: "JSON",
+                link: "https://www.json.org/json-en.html"
             },
         ]
     },
     {
         title : {
             name: 'Backend',
-            color: 'red'
+            color: {
+                from : "from-red-700",
+                via:  "via-red-200",
+                to: "to-red-500"
+            }
         },
         technologies : [
             {
                 icon: "skills/icons8-php-48.png",
                 name: "PHP",
+                link : "https://www.php.net/"
             },
             {
                 icon: "skills/icons8-python-48.png",
-                name: "Python"
+                name: "Python",
+                link: "https://www.python.org/"
             },
             {
                 icon: "skills/Djangoproject.png",
-                name: "Django"
+                name: "Django",
+                link: "https://www.djangoproject.com/"
             },
             {
                 icon: "skills/icons8-java-48.png",
-                name: "Java"
+                name: "Java",
+                link: "https://www.java.com/es/"
             },
             {
                 icon: "skills/icons8-c-48.png",
-                name: "C#"
+                name: "C#",
+                link: "https://www.w3schools.com/cs/index.php"
             },
             {
                 icon: "skills/icons8-xml-48.png",
@@ -98,7 +113,8 @@ export const skills : ISkill[] = [
             },
             {
                 icon: "skills/icons8-swagger-48.png",
-                name: "Swagger"
+                name: "Swagger",
+                link: "https://swagger.io/"
             },
             {
                 icon: "skills/icons8-sql-server-48.png",
@@ -117,40 +133,52 @@ export const skills : ISkill[] = [
     {
         title : {
             name: 'Tools',
-            color: 'red'
+            color: {
+                from : "from-gray-700",
+                via:  "via-gray-200",
+                to: "to-gray-500"
+            }
         },
         technologies : [
             {
                 icon: "skills/iis.png",
-                name: "IIS"
+                name: "IIS",
+                link :"https://learn.microsoft.com/es-es/iis/get-started/introduction-to-iis/iis-web-server-overview"
             },
             {
                 icon: "skills/icons8-git-48.png",
-                name: "Git"
+                name: "Git",
+                link : "https://git-scm.com/"
             },
             {
                 icon: "skills/icons8-visual-studio-code-48.png",
-                name: "VS"
+                name: "VS",
+                link: "https://code.visualstudio.com/"
             },
             {
                 icon: "skills/icons8-bitbucket-is-a-web-based-version-control-repository-hosting-service-48.png",
-                name: "Bitbucket"
+                name: "Bitbucket",
+                link : "https://bitbucket.org/product/"
             },
             {
                 icon: "skills/icons8-github.svg",
-                name: "GitHub"
+                name: "GitHub",
+                link: "https://github.com/"
             },
             {
                 icon: "skills/icons8-docker-48.png",
-                name: "Docker"
+                name: "Docker",
+                link: "https://www.docker.com/"
             },
             {
                 icon: "skills/soapui.png",
-                name: "SoapUI"
+                name: "SoapUI",
+                link : "https://www.soapui.org/"
             },
             {
                 icon: "skills/icons8-postman-is-the-only-complete-api-development-environment-48.png",
-                name: "Postman"
+                name: "Postman",
+                link: "https://www.postman.com/"
             },
         ]
     }

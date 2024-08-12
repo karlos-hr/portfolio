@@ -1,9 +1,14 @@
 
 
+export interface IColorTitleSkill {
+    from : string,
+    via : string,
+    to : string
+}
 
 export interface ITitleSkill{
     name: string,
-    color : string,
+    color : IColorTitleSkill,
 }
 
 export interface ITechnologiesSkill {
