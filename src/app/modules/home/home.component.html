@@ -2,7 +2,7 @@
 
 
 <section class="section py-16 md:py-36 scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl">
-  <article class="max-w-xl p-3">
+  <article class="max-w-xl">
     <h2 class="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white">Hey!, I'm {{name}}</h2>
     <p class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300">
       +1 year of experience. <strong>Software Engineer</strong> specialized in creating web applications
@@ -22,6 +22,25 @@
   </article>
 </section> 
 
-<section class="section py-16 md:py-36 scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl">
-  <app-project-component></app-project-component>
+<section class="section scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl">
+
+  <h2 class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white">
+    <img src="/assets/briefcase.icon.svg" width="28" height="28" style="filter: invert(1);">
+    Work Experience
+  </h2>
+  <ol class="relative mt-16">
+    @for(workExperience of workExperiences ; track workExperience){
+      <li>
+        <app-work-experience-component [workExperience]="workExperience"></app-work-experience-component>
+      </li>
+    }
+  </ol>
+
+</section>
+
+
+<section class="section scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl">
+
+
+
 </section>
