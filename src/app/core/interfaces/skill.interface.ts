@@ -11,8 +11,14 @@ export interface ITitleSkill{
     color : IColorTitleSkill,
 }
 
+export interface IIconTitleSkill{
+    url : string,
+    width? : number,
+    height? : number
+}
+
 export interface ITechnologiesSkill {
-    icon : string
+    icon : IIconTitleSkill
     name : string
     link?: string
 }
