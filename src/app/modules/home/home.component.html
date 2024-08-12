@@ -2,23 +2,26 @@
 
 
 <section class="section py-16 md:py-36 scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl">
-
   <article class="max-w-xl p-3">
     <h2 class="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white">Hey!, I'm {{name}}</h2>
-    <p class="mt-6 text-xl text-gray-800 dark:[&amp;>strong]:text-yellow-200 [&amp;>strong]:text-yellow-500 [&amp;>strong]:font-semibold dark:text-gray-300">
-      +15 años de experiencia. <strong>Ingeniero de Software y Creador de Contenido sobre Programación</strong> de Barcelona, España 🇪🇸. Especializado en el desarrollo de aplicaciones web
-      únicas.
+    <p class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300">
+      +1 year of experience. <strong>Software Engineer</strong> specialized in creating web applications
+      and experience in the entire development lifecycle and coding.
     </p>
-    
+    <footer class="w-fit flex flex-wrap gap-4 px-4 py-2 mt-6 font-semibold text-sm bg-gray-800 text-white rounded-full shadow-md shadow-neutral-950">
+      <button>
+        <img style="filter: invert(1);"  src="/assets/email.icon.svg" width="22" height="22" class="hover:opacity-65 hover:cursor-pointer">
+      </button>
+      <a [href]="githubLink" target="_blank">
+        <img style="filter: invert(1);"  src="/assets/github.icon.svg" width="22" height="22" class="hover:opacity-65 hover:cursor-pointer">
+      </a>
+      <a [href]="linkedinLink" target="_blank">
+        <img style="filter: invert(1);" src="/assets/linkedin.icon.svg" width="22" height="22" class="hover:opacity-65 hover:cursor-pointer">
+      </a>
+    </footer>
   </article>
+</section> 
 
-  <article class="max-w-xl p-3">
-    <h2 class="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white">Hey!, I'm {{name}}</h2>
-    <p class="mt-6 text-xl text-gray-800 dark:[&amp;>strong]:text-yellow-200 [&amp;>strong]:text-yellow-500 [&amp;>strong]:font-semibold dark:text-gray-300">
-      +15 años de experiencia. <strong>Ingeniero de Software y Creador de Contenido sobre Programación</strong> de Barcelona, España 🇪🇸. Especializado en el desarrollo de aplicaciones web
-      únicas.
-    </p>
-    
-  </article>
-
+<section class="section py-16 md:py-36 scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl">
+  <app-project-component></app-project-component>
 </section>
