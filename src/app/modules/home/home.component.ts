@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { IWorkExperience } from '../../core/interfaces/work-experience.interface';
 import { workExperiences } from '../../data/mocks/work-experience.mock';
+import { IProject } from '../../core/interfaces/projects.interface';
+import { projects } from '../../data/mocks/projects.mock';
 
 @Component({
   selector: 'app-home',
@@ -14,6 +16,7 @@ export class HomeComponent implements OnInit {
   private _linkedinLink : string = 'https://www.linkedin.com/in/carloshrios';
 
   private _workExperiences : IWorkExperience[] = workExperiences; 
+  private _projects : IProject[] = projects; 
 
   constructor() { }
 
@@ -34,6 +37,10 @@ export class HomeComponent implements OnInit {
 
   public get workExperiences() : IWorkExperience[]{
     return this._workExperiences;
+  }
+
+  public get projects () : IProject [] {
+    return this._projects;
   }
 
 }

@@ -1,3 +1,4 @@
+import { ProjectComponent } from "./project/project.component";
 import { WorkExperienceComponent } from "./work-experience/work-experience.component";
 
 
@@ -5,8 +6,10 @@ import { WorkExperienceComponent } from "./work-experience/work-experience.compo
 // import { CardFarmaceuticoComponent } from "@shared/components/cards/card-farmaceutico/card-farmaceutico.component";
 export const components: any[] = [
 
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    ProjectComponent
 ];
 
 
 export *  from "./work-experience/work-experience.component";
+export *  from "./project/project.component";
