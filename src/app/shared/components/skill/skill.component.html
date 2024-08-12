@@ -10,12 +10,12 @@
   <section class="w-full grid grid-cols-4 gap-4">
     @for(tech of skill.technologies ; track tech){
       @if(tech.link){
-        <a [href]="tech.link" target="_blank" class="flex items-center flex-col p-2 text-center">
+        <a [href]="tech.link" target="_blank" class="flex items-center flex-col p-2 text-center justify-center">
           <img src="/assets/{{tech.icon.url}}" width="{{tech.icon.width ?? '48'}}" height="{{tech.icon.height ?? '48'}}">
           {{tech.name}}
         </a>
       }@else {
-        <span class="flex items-center flex-col p-2 text-center">
+        <span class="flex items-center flex-col p-2 text-center justify-center">
           <img src="/assets/{{tech.icon.url}}" width="{{tech.icon.width ?? '48'}}" height="{{tech.icon.height ?? '48'}}">
           {{tech.name}}
         </span>

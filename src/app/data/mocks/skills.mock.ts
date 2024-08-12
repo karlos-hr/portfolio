@@ -242,6 +242,18 @@ export const skills : ISkill[] = [
             },
             {
                 icon:{
+                    url: "skills/clickup.png",
+                },
+                name: "ClickUp"
+            },
+            {
+                icon:{
+                    url: "skills/jira.png",
+                },
+                name: "Jira"
+            },
+            {
+                icon:{
                     url: "skills/sqlservermanagement.png",
                     width: 128,
                     height: 128
