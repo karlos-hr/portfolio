@@ -1,7 +1,5 @@
 
-
-
-export interface Itag {
+export interface ITagProject {
     name: string,
     icon : string,
     textColor: string,
@@ -12,12 +10,10 @@ export interface Itag {
 
 
 export interface IProject {
-
     title : string,
     subtitle : string
     description: string[],
-    tags : Itag[],
+    tags : ITagProject[],
     images : string[],
     link : string
-
 }

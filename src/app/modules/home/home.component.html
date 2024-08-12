@@ -2,7 +2,7 @@
 
 
 <section class="section py-16 md:py-36 scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl">
-  <article class="max-w-xl">
+  <article class="max-w-xl p-4">
     <h2 class="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white">Hey!, I'm {{name}}</h2>
     <p class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-400 [&>strong]:text-yellow-400 [&>strong]:font-semibold dark:text-gray-300">
       +1 year of experience. <strong>Software Engineer</strong> specialized in creating web applications
@@ -47,7 +47,7 @@
   </h2>
   <ol class="relative mt-16 flex flex-wrap gap-5 w-full justify-center">
     @for(project of projects ; track project){
-      <li class="max-w-md">
+      <li class="max-w-md p-4">
         <app-project-component [project]="project"></app-project-component>
       </li>
     }
@@ -62,10 +62,10 @@
     <img src="/assets/laptop.icon.svg" width="32" height="32" style="filter: invert(1);">
     Skills
   </h2>
-  <ol class="relative mt-16 flex flex-wrap gap-5 w-full justify-center">
-    @for(project of projects ; track project){
-      <li class="max-w-md">
-        <app-project-component [project]="project"></app-project-component>
+  <ol class="max-w-7xl relative mt-16 flex flex-wrap gap-5 w-full justify-center">
+    @for(skill of skills ; track skill){
+      <li class="max-w-md p-4 w-1/2">
+        <app-skill-component [skill]="skill"></app-skill-component>
       </li>
     }
   </ol>

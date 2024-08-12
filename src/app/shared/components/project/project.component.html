@@ -1,6 +1,6 @@
 @if(project){
   <a [href]="project.link" target="_blank">
-    <article class=" p-6 mb-6 shadow transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer border  border-neutral-700">
+    <article class=" p-6 mb-6 shadow transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl hover:shadow-slate-900 rounded-2xl cursor-pointer border  border-neutral-700">
       <div class="text-center">
         <h2 class="text-yellow-400">{{project.title}}</h2>
         <h3 class="text-xs">• {{project.subtitle}}</h3>
@@ -8,7 +8,7 @@
   
       <section class="flex flex-col w-full mt-5">
   
-        <div class="flex h-52 ">
+        <div class="flex h-52">
           <div class="relative w-full">
             <!-- Carousel wrapper -->
             <div class="relative overflow-hidden rounded-lg">
@@ -59,7 +59,7 @@
   
       <footer class="text-center mt-5 flex flex-wrap justify-center gap-4">
         @for(tag of project.tags ; track tag){
-          <span class="w-fit  items-center gap-2 flex flex-row text-xs font-medium me-2 px-2.5 py-0.5 rounded-full {{tag.bgColor}} {{tag.textColor}}">
+          <span class="w-20 h-7 items-center gap-2 flex flex-row text-xs font-medium me-2 px-2.5 py-0.5 rounded-full {{tag.bgColor}} {{tag.textColor}}">
             @if(tag.icon){
               <img src="/assets/{{tag.icon}}" width="{{tag.width}}" height="{{tag.height}}">
             }
