@@ -51,7 +51,15 @@ export const skills : ISkill[] = [
                 icon: "skills/material-design.svg",
                 name: "Material",
                 link: "https://m3.material.io/"
-            }
+            },
+            {
+                icon: "skills/icons8-xml-48.png",
+                name: "XML"
+            },
+            {
+                icon: "skills/icons8-placeholder-thumbnail-json-48.png",
+                name: "JSON"
+            },
         ]
     },
     {
@@ -81,6 +89,18 @@ export const skills : ISkill[] = [
                 name: "C#"
             },
             {
+                icon: "skills/icons8-xml-48.png",
+                name: "SOAP"
+            },
+            {
+                icon: "skills/icons8-placeholder-thumbnail-json-48.png",
+                name: "REST"
+            },
+            {
+                icon: "skills/icons8-swagger-48.png",
+                name: "Swagger"
+            },
+            {
                 icon: "skills/icons8-sql-server-48.png",
                 name: "SQLServer"
             },
@@ -103,7 +123,35 @@ export const skills : ISkill[] = [
             {
                 icon: "skills/iis.png",
                 name: "IIS"
-            }
+            },
+            {
+                icon: "skills/icons8-git-48.png",
+                name: "Git"
+            },
+            {
+                icon: "skills/icons8-visual-studio-code-48.png",
+                name: "VS"
+            },
+            {
+                icon: "skills/icons8-bitbucket-is-a-web-based-version-control-repository-hosting-service-48.png",
+                name: "Bitbucket"
+            },
+            {
+                icon: "skills/icons8-github.svg",
+                name: "GitHub"
+            },
+            {
+                icon: "skills/icons8-docker-48.png",
+                name: "Docker"
+            },
+            {
+                icon: "skills/soapui.png",
+                name: "SoapUI"
+            },
+            {
+                icon: "skills/icons8-postman-is-the-only-complete-api-development-environment-48.png",
+                name: "Postman"
+            },
         ]
     }
 ]  

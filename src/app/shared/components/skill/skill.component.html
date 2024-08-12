@@ -2,9 +2,9 @@
 {
   
 
-<article class="w-full rounded-lg bg-slate-800 p-4 h-full">
+<article class="w-full rounded-lg border shadow-md border-neutral-700 p-4 h-full">
 
-  <h2 class="text-2xl text-center mb-3">{{skill.title.name}}</h2>
+  <h2 class="text-xl text-center mb-3 ">{{skill.title.name}}</h2>
   <section class="w-full grid grid-cols-4 gap-4">
     @for(tech of skill.technologies ; track tech){
       @if(tech.link){

@@ -108,5 +108,6 @@ export const projects : IProject[] = [
 
         ]
 
-    }
+    },
+    
 ]
