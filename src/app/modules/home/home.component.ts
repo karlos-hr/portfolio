@@ -16,6 +16,7 @@ export class HomeComponent implements OnInit {
   private _name : string  = 'Carlos Andres Horta Rios';
   private _githubLink : string = 'https://github.com/karlos-hr';
   private _linkedinLink : string = 'https://www.linkedin.com/in/carloshrios';
+  private _veridataLink : string = 'https://www.veridata.es/'
 
   private _workExperiences : IWorkExperience[] = workExperiences; 
   private _projects : IProject[] = projects; 
@@ -48,6 +49,10 @@ export class HomeComponent implements OnInit {
 
   public get skills () : ISkill[]{
     return this._skills;
+  }
+
+  public get veridataLink() : string{
+    return this._veridataLink;
   }
 
 }

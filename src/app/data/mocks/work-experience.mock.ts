@@ -7,6 +7,7 @@ export const workExperiences : IWorkExperience[] = [
     {
         title: "Full Stack developer",
         subtitle : "Veridata SL",
+        link: "https://www.veridata.es/",
         description: [
             "Document technical specifications, architectural diagrams, and project documentation",
             "Build RESTful and SOAP APIs to facilitate communication between the front-end and back-end systems. Swagger for RESTful APIs.",
@@ -20,6 +21,7 @@ export const workExperiences : IWorkExperience[] = [
     {
         title: "Veridata Internship",
         subtitle : "Veridata SL",
+        link : "https://www.veridata.es/",
         description: [
             "Collaborate with team members to troubleshoot front-end issues and provide solutions. ",
             "Participate in unit testing and bug fixing activities.",

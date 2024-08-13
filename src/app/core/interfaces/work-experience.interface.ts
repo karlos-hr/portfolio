@@ -8,5 +8,6 @@ export interface IWorkExperience {
     description : string[],
     date: string,
     time : string,
-    site : string
+    site : string,
+    link: string
 }
