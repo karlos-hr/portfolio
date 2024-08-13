@@ -17,6 +17,7 @@ export class HomeComponent implements OnInit {
   private _githubLink : string = 'https://github.com/karlos-hr';
   private _linkedinLink : string = 'https://www.linkedin.com/in/carloshrios';
   private _veridataLink : string = 'https://www.veridata.es/'
+  private _email : string  ='hortarios.carlos@gmail.com'
 
   private _workExperiences : IWorkExperience[] = workExperiences; 
   private _projects : IProject[] = projects; 
@@ -53,6 +54,10 @@ export class HomeComponent implements OnInit {
 
   public get veridataLink() : string{
     return this._veridataLink;
+  }
+
+  public get email() : string{
+    return this._email;
   }
 
 }
