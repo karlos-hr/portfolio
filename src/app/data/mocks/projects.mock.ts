@@ -19,7 +19,7 @@ export const projects : IProject[] = [
                 name: 'CSS',
                 icon: 'css.icon.svg',
                 textColor: "text-white",
-                bgColor:"bg-blue-500",       
+                bgColor:"bg-blue-600",       
                 width: 16,
                 height: 16
             },
@@ -27,15 +27,15 @@ export const projects : IProject[] = [
                 name: 'HTML',
                 icon: 'html.icon.svg',
                 textColor: "text-white",
-                bgColor:"bg-orange-500",
+                bgColor:"bg-orange-800",
                 width: 16,
                 height: 16
             },
             {
-                name: 'JS',
+                name: 'JavaScript',
                 icon: 'javascript.icon.svg',
                 textColor: "text-white",
-                bgColor:"bg-yellow-500",     
+                bgColor:"bg-yellow-700",     
                 width: 16,
                 height: 16
             }
@@ -70,7 +70,7 @@ export const projects : IProject[] = [
                 name: 'CSS',
                 icon: 'css.icon.svg',
                 textColor: "text-white",
-                bgColor:"bg-blue-500",       
+                bgColor:"bg-blue-600",       
                 width: 16,
                 height: 16
             },
@@ -78,15 +78,15 @@ export const projects : IProject[] = [
                 name: 'HTML',
                 icon: 'html.icon.svg',
                 textColor: "text-white",
-                bgColor:"bg-orange-500",
+                bgColor:"bg-orange-800",
                 width: 16,
                 height: 16
             },
             {
-                name: 'JS',
+                name: 'JavaScript',
                 icon: 'javascript.icon.svg',
                 textColor: "text-white",
-                bgColor:"bg-yellow-500",     
+                bgColor:"bg-yellow-700",     
                 width: 16,
                 height: 16
             }
@@ -133,7 +133,7 @@ export const projects : IProject[] = [
                 name: 'HTML',
                 icon: 'html.icon.svg',
                 textColor: "text-white",
-                bgColor:"bg-orange-500",
+                bgColor:"bg-orange-800",
                 width: 16,
                 height: 16
             },
@@ -141,7 +141,7 @@ export const projects : IProject[] = [
                 name: 'TypeScript',
                 icon: 'skills/icons8-typescript-48.png',
                 textColor: "text-white",
-                bgColor:"bg-blue-500",
+                bgColor:"bg-blue-600",
                 width: 16,
                 height: 16
             },
@@ -149,7 +149,7 @@ export const projects : IProject[] = [
                 name: 'SCSS',
                 icon: 'css.icon.svg',
                 textColor: "text-white",
-                bgColor:"bg-pink-500",       
+                bgColor:"bg-pink-600",       
                 width: 16,
                 height: 16
             },
