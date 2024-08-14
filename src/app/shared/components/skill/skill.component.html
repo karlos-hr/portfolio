@@ -11,12 +11,12 @@
     @for(tech of skill.technologies ; track tech; let i = $index){
       @if(tech.link){
         <a [href]="tech.link" target="_blank" class="flex items-center flex-col p-2 text-center justify-center">
-          <img alt="tech-icon-{{i}}" src="/assets/{{tech.icon.url}}" width="{{tech.icon.width ?? '48'}}" height="{{tech.icon.height ?? '48'}}">
+          <img alt="tech-icon-{{i}}" src="./assets/{{tech.icon.url}}" width="{{tech.icon.width ?? '48'}}" height="{{tech.icon.height ?? '48'}}">
           {{tech.name}}
         </a>
       }@else {
         <span class="flex items-center flex-col p-2 text-center justify-center">
-          <img alt="tech-icon-{{i}}" src="/assets/{{tech.icon.url}}" width="{{tech.icon.width ?? '48'}}" height="{{tech.icon.height ?? '48'}}">
+          <img alt="tech-icon-{{i}}" src="./assets/{{tech.icon.url}}" width="{{tech.icon.width ?? '48'}}" height="{{tech.icon.height ?? '48'}}">
           {{tech.name}}
         </span>
       }

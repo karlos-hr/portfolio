@@ -15,7 +15,7 @@
                 <!-- Item 1 -->
                 @for(image of project.images ; track image ; let i = $index){
                   <div [ngClass]="{'hidden': imageIndex != i}">
-                    <img alt="project-image-{{i}}" class="rounded-lg" src="/assets/{{image}}">
+                    <img alt="project-image-{{i}}" class="rounded-lg" src="./assets/{{image}}">
                   </div>
                 }
             </div>
@@ -61,7 +61,7 @@
         @for(tag of project.tags ; track tag ; let i = $index){
           <span class="w-full h-7 items-center gap-2 flex flex-row text-xs font-medium me-2 px-2.5 py-0.5 rounded-full {{tag.bgColor}} {{tag.textColor}}">
             @if(tag.icon){
-              <img alt="tag-icon-{{i}}" src="/assets/{{tag.icon}}" width="{{tag.width}}" height="{{tag.height}}">
+              <img alt="tag-icon-{{i}}" src="./assets/{{tag.icon}}" width="{{tag.width}}" height="{{tag.height}}">
             }
             {{tag.name}}
           </span>
