@@ -61,7 +61,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/portfolio-website/"
+              "baseHref": "/portfolio/"
             },
             "development": {
               "optimization": false,
