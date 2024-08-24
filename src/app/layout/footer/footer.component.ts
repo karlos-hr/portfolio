@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ITagProject } from '../../core/interfaces/projects.interface';
+import { tags } from '../../data/mocks/footer.mock';
 
 @Component({
   selector: 'app-footer',
@@ -8,6 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
 
   private _year : string = '2024';
+  private _tags : ITagProject[]  = tags;
 
   constructor() { }
 
@@ -15,6 +18,9 @@ export class FooterComponent implements OnInit {
   }
 
 
+  public get tags() : ITagProject[] { 
+    return this._tags;
+  }
   public get year() : string {
     return this._year;
   }

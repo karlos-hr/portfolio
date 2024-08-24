@@ -1,1 +1,0 @@
-import{a as i,c as r,k as e,s as m}from"./chunk-POUB5IF7.js";var u=(()=>{let t=class t{};t.\u0275fac=function(n){return new(n||t)},t.\u0275mod=r({type:t}),t.\u0275inj=i({imports:[e,m]});let o=t;return o})();export{u as HomeModule};
