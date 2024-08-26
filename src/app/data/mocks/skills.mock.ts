@@ -6,7 +6,7 @@ export const skills : ISkill[] = [
             name: 'Frontend',
             color: {
                 from : "from-blue-700",
-                via:  "via-blue-200",
+                via:  "via-blue-400",
                 to: "to-blue-500"
             }
         },
@@ -98,7 +98,7 @@ export const skills : ISkill[] = [
             name: 'Backend',
             color: {
                 from : "from-red-700",
-                via:  "via-red-200",
+                via:  "via-red-400",
                 to: "to-red-500"
             }
         },
@@ -176,7 +176,7 @@ export const skills : ISkill[] = [
             name: 'Tools',
             color: {
                 from : "from-gray-700",
-                via:  "via-gray-200",
+                via:  "via-gray-400",
                 to: "to-gray-500"
             }
         },
@@ -266,7 +266,7 @@ export const skills : ISkill[] = [
             name: 'Others',
             color: {
                 from : "from-pink-700",
-                via:  "via-pink-200",
+                via:  "via-pink-400",
                 to: "to-pink-500"
             }
         },
