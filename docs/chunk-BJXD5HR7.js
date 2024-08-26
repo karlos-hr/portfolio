@@ -1,1 +1,0 @@
-import{C as m,a as i,c as r,u as e}from"./chunk-CZX5B2Z2.js";var u=(()=>{let t=class t{};t.\u0275fac=function(n){return new(n||t)},t.\u0275mod=r({type:t}),t.\u0275inj=i({imports:[e,m]});let o=t;return o})();export{u as HomeModule};
