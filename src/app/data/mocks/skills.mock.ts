@@ -70,6 +70,7 @@ export const skills : ISkill[] = [
             {
                 icon:{
                     url: "skills/material-design.svg",
+                    color: "dark:invert"
                 },
                 name: "Material",
                 link: "https://m3.material.io/"
@@ -77,6 +78,7 @@ export const skills : ISkill[] = [
             {
                 icon:{
                     url: "skills/icons8-xml-48.png",
+                    color: "dark:invert"
                 },
                 name: "XML",
                 link: "https://www.w3schools.com/xml/default.asp"
@@ -84,6 +86,7 @@ export const skills : ISkill[] = [
             {
                 icon:{
                     url: "skills/icons8-placeholder-thumbnail-json-48.png",
+                    color: "dark:invert"
                 },
                 name: "JSON",
                 link: "https://www.json.org/json-en.html"
@@ -123,27 +126,21 @@ export const skills : ISkill[] = [
             },
             {
                 icon:{
-                    url: "skills/icons8-java-48.png",
+                    url: "skills/net-core.svg",
                 },
-                name: "Java",
-                link: "https://dev.java/learn/getting-started/"
-            },
-            {
-                icon:{
-                    url: "skills/icons8-c-48.png",
-                },
-                name: "C#",
-                link: "https://www.w3schools.com/cs/index.php"
+                name: ".NET"
             },
             {
                 icon:{
                     url: "skills/icons8-xml-48.png",
+                    color: "dark:invert"
                 },
                 name: "SOAP"
             },
             {
                 icon:{
                     url: "skills/icons8-placeholder-thumbnail-json-48.png",
+                    color: "dark:invert"
                 },
                 name: "REST"
             },
@@ -229,6 +226,7 @@ export const skills : ISkill[] = [
             {
                 icon:{
                     url: "skills/soapui.png",
+                    
                 },
                 name: "SoapUI",
                 link : "https://www.soapui.org/"
@@ -261,6 +259,47 @@ export const skills : ISkill[] = [
                 name : "SQL Server Management",
                 link : "https://learn.microsoft.com/es-es/sql/ssms/tutorials/ssms-configuration?view=sql-server-ver16"
             }
+        ]
+    },
+    {
+        title : {
+            name: 'Others',
+            color: {
+                from : "from-pink-700",
+                via:  "via-pink-200",
+                to: "to-pink-500"
+            }
+        },
+        technologies : [
+            
+            {
+                icon:{
+                    url: "skills/patterns.png",
+                },
+                name: "Desing patterns",
+                link: "https://refactoring.guru/design-patterns"
+            },
+            {
+                icon:{
+                    url: "skills/icons8-c++-48.png",
+                },
+                name: "C++",
+            },
+            {
+                icon:{
+                    url: "skills/icons8-c-48.png",
+                },
+                name: "C#",
+                link: "https://www.w3schools.com/cs/index.php"
+            },
+            
+            {
+                icon:{
+                    url: "skills/icons8-java-48.png",
+                },
+                name: "Java",
+                link: "https://dev.java/learn/getting-started/"
+            },
         ]
     }
 ]  

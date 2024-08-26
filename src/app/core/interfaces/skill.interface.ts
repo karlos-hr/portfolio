@@ -14,7 +14,8 @@ export interface ITitleSkill{
 export interface IIconTitleSkill{
     url : string,
     width? : number,
-    height? : number
+    height? : number,
+    color? : string
 }
 
 export interface ITechnologiesSkill {

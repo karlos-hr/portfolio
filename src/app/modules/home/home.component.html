@@ -22,8 +22,8 @@
       </a>
     </footer>
   </article>
-  <div class="w-72 relative">
-    <img alt="monitor-image" src="./assets/imgs/monitor.png" class="z-10" width="288px" height="288px">
+  <div class="w-72 relative flex grow items-center" style="height: 288px;">
+    <img alt="monitor-image" src="./assets/imgs/monitor.png" class="z-10" width="288px" height="288px" style="min-width: 288px; min-height: 288px;">
     <div class="bg-gradient-to-r from-slate-600 via-slate-400 to-slate-600 dark:from-slate-800 dark:via-slate-600 dark:to-slate-800
         absolute top-11 left-4 -z-10 rounded-sm flex justify-center items-center flex-col" style="width: 15.7rem; height: 152px;">
       <strong class="text-2xl text-yellow-400 font-semibold">Software Engineer</strong>
@@ -74,7 +74,7 @@
   </h2>
   <ol class="max-w-7xl relative mt-16 flex flex-wrap gap-5 w-full justify-center">
     @for(skill of skills ; track skill){
-      <li class="max-w-md p-4">
+      <li class="max-w-md p-4" style="width: 446px;">
         <app-skill-component [skill]="skill"></app-skill-component>
       </li>
     }
