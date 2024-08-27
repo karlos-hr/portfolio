@@ -3,7 +3,10 @@ import { IOptionsProjects } from "../../../core/interfaces/options-projects.inte
 
 
 export const options_projects : IOptionsProjects[]  = [
-
+    {
+        value: "all",
+        name : "Search projects by",
+    },
     {
         value: "angular",
         name : "Angular" ,
@@ -18,5 +21,5 @@ export const options_projects : IOptionsProjects[]  = [
         value: "java",
         name : "Java" ,
         icon : "skills/icons8-java-48.png"
-    }
+    },
 ]

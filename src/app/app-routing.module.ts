@@ -16,11 +16,11 @@ const routes: Routes = [
         component: HomeComponent,
         loadChildren: () => import('@modules/home/home.module').then((m) => m.HomeModule)
       },
-      // {
-      //   path: 'projects',
-      //   component: ProjectsComponent,
-      //   loadChildren: () => import('@modules/projects/projects.module').then((m) => m.ProjectsModule)
-      // }
+      {
+        path: 'projects',
+        component: ProjectsComponent,
+        loadChildren: () => import('@modules/projects/projects.module').then((m) => m.ProjectsModule)
+      }
     ],
     
   },
