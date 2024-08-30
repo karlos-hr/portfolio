@@ -48,9 +48,9 @@ export const projects : IProject[] = [
         ],
         link : "https://pokernotebook.es/",
         description: [
-            "Document technical specifications, architectural decisions, and codebase changes for knowledge sharing and future reference.",
-            "Develop user-friendly interfaces for form creation and management using Django",
-            "Stay updated on emerging security techniques and trends relevant to development. "
+            " Collaborate with researchers and domain experts to understand requirements and translate them into technical solutions.",
+            "Follow coding standards, version control best practices, and project management methodologies. ",
+            "Provide technical support and troubleshooting assistance to users and stakeholders",
         ]
 
     },
@@ -102,9 +102,9 @@ export const projects : IProject[] = [
         ],
         link : "",
         description: [
-           " Collaborate with researchers and domain experts to understand requirements and translate them into technical solutions.",
-            "Follow coding standards, version control best practices, and project management methodologies. ",
-            "Provide technical support and troubleshooting assistance to users and stakeholders",
+            "Document technical specifications, architectural decisions, and codebase changes for knowledge sharing and future reference.",
+            "Develop user-friendly interfaces for form creation and management",
+            "Stay updated on emerging security techniques and trends relevant to development. "
 
         ]
 
