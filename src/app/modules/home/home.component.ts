@@ -20,9 +20,11 @@ export class HomeComponent implements OnInit {
   private _email : string  ='hortarios.carlos@gmail.com'
   private _etsiitLink : string = 'https://etsiit.ugr.es/';
 
-  private _workExperiences : IWorkExperience[] = workExperiences; 
-  private _projects : IProject[] = projects; 
+  private _workExperiences : IWorkExperience[] = workExperiences;
+  private _projects : IProject[] = projects;
   private _skills : ISkill[] = skills;
+
+  readonly yearsExperience : string = 'Over 3 years';
 
   constructor() { }
 
@@ -35,11 +37,11 @@ export class HomeComponent implements OnInit {
 
   public get linkedinLink() : string{
     return this._linkedinLink;
-  } 
+  }
 
   public get githubLink() : string{
     return this._githubLink;
-  } 
+  }
 
   public get workExperiences() : IWorkExperience[]{
     return this._workExperiences;

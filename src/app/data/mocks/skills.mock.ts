@@ -173,7 +173,7 @@ export const skills : ISkill[] = [
     },
     {
         title : {
-            name: 'Tools',
+            name: 'DevOps & Tools',
             color: {
                 from : "from-gray-700",
                 via:  "via-gray-400",
@@ -226,7 +226,7 @@ export const skills : ISkill[] = [
             {
                 icon:{
                     url: "skills/soapui.png",
-                    
+
                 },
                 name: "SoapUI",
                 link : "https://www.soapui.org/"
@@ -271,7 +271,7 @@ export const skills : ISkill[] = [
             }
         },
         technologies : [
-            
+
             {
                 icon:{
                     url: "skills/patterns.png",
@@ -292,7 +292,7 @@ export const skills : ISkill[] = [
                 name: "C#",
                 link: "https://www.w3schools.com/cs/index.php"
             },
-            
+
             {
                 icon:{
                     url: "skills/icons8-java-48.png",
@@ -302,4 +302,4 @@ export const skills : ISkill[] = [
             },
         ]
     }
-]  
+]
