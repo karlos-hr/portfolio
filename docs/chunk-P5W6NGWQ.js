@@ -1,1 +1,0 @@
-import"./chunk-JTJAX7TN.js";import{A as m,L as e,a as i,c as r}from"./chunk-JI46USEE.js";var u=(()=>{let t=class t{};t.\u0275fac=function(n){return new(n||t)},t.\u0275mod=r({type:t}),t.\u0275inj=i({imports:[m,e]});let o=t;return o})();export{u as ProjectsModule};
